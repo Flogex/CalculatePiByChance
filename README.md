@@ -15,3 +15,4 @@ The fourfold ratio of the area of both shapes equals Pi.
 The higher the number of iterations (= number of points in square) the more exact Pi is calculated.
 ![alt tag](githubresources/Pi_Iterations.PNG "Pi as function of iterations");
 
+The standard deviation is around 0.001.
