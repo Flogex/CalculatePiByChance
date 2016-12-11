@@ -1,10 +1,10 @@
 using System;
 
-namespace Flogex.CalculatePi
+namespace Flogex.MonteCarlo
 {
     class CalculatePi
     {
-        public static double CalculateByChance (int squareSideLength , int iterations)
+        public static double Run (int iterations)
         {
             double pointsInCircle = 0;
             double totalPoints = 0;
@@ -12,11 +12,10 @@ namespace Flogex.CalculatePi
 
             for (int i = 0; i < iterations; i++)
             {
-                int randomX = random.Next(squareSideLength);
-                int randomY = random.Next(squareSideLength);
-                double distance = Math.Sqrt(Math.Pow(randomX - squareSideLength / 2 , 2) +
-                    Math.Pow(randomY - squareSideLength / 2 , 2));
-                if (distance <= squareSideLength / 2)
+                double randomX = random.NextDouble();
+                double randomY = random.NextDouble();
+                double distance = Math.Sqrt(Math.Pow(randomX - 0.5, 2) + Math.Pow(randomY - 0.5, 2));
+                if (distance <= 0.5)
                 {
                     pointsInCircle++;
                 }
