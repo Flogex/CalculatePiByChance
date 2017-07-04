@@ -1,18 +1,18 @@
 # MonteCarlo_PiCalculation
 Using random points in a square with an inner circle to calculate Pi approximately (see Monte Carlo algorithm).
 
-##Description
+## Description
 <p>
 If you draw a circle inside a square, the diameter is equal to the square's height and width.
 </p>
-![alt tag](githubresources/circle_in_square.PNG "Draw Circle into a square");
+<img src="githubresources/circle_in_square.PNG" alt="Draw Circle intp a square" height=200>
 <p>
 The fourfold ratio of the area of both shapes equals Pi.
 </p>
-![alt tag](githubresources/formula.PNG "Calculate Pi using ratio of area of circle and square");
+<img src="githubresources/formula.PNG" alt="Calculate Pi using ratio of area of circle and square" height=200>
 
-##Parameter
+## Parameter
 The higher the number of iterations (= number of points in square) the more exact Pi is calculated.
-![alt tag](githubresources/Pi_Iterations.PNG "Pi as function of iterations");
+<img src="githubresources/Pi_Iterations.PNG" alt="Pi as function of iterations" height=200>
 
 The standard deviation is around 0.001.
