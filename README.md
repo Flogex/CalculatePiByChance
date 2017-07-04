@@ -1,4 +1,4 @@
-# MonteCarlo_PiCalculation
+# MonteCarlo PiCalculation
 Using random points in a square with an inner circle to calculate Pi approximately (see Monte Carlo algorithm).
 
 ## Description
